@@ -58,7 +58,7 @@ body {
 
 .portfolio-items-wrapper {
   display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+   grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
 }
 
 .portfolio-item-wrapper {
@@ -121,4 +121,17 @@ body {
 
 .profile-content-wrapper h1 {
   color: lightseagreen;
+}
+
+/* about page */
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+.profile-image-wrapper {
+    align-self: auto;
+}
+
+.profile-content-wrapper h1 {
+	color: lightseagreen;
 }
